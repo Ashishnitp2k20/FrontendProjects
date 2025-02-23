@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Display</title>
+    <style>
+    /* 
+        display: inline, block, none and inline-block
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin: 20px;
+        }
+        h2{
+            background-color: lightsalmon;
+            padding: 10px;
+            margin: 5px;
+            display: inline;
+        }
+        span{
+            background-color: tomato;
+            padding: 10px;
+            margin: 5px;
+            display: block;
+        }
+        a{
+            background-color: tomato;
+            padding: 10px;
+            margin: 5px;
+            display: block;
+        }
+        .parent{
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+        .child{
+            background-color: purple;
+            padding: 10px;
+            width: 200px;
+            color: white;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h2>Good evening</h2>
+    <h2>Good evening</h2>
+    <h2>Good evening</h2>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           <span>1. Id, ipsam distinctio! Nulla repudiandae ea minus labore</span>
+           <span>2.  unde veniam officiis deserunt natus dolorem tenetur </span>
+           <span>3.  perferendis, commodi itaque est culpa ab ut.</span>
+            </p>
+    </div>
+
+    <div><a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Hr</a>
+        <a href="#">Hg</a>
+    </div>
+
+    <div class="parent">
+        <div class="child">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nemo quod possimus voluptas soluta voluptates consequatur ducimus qui suscipit reprehenderit nam culpa impedit, vero facilis nostrum quasi eligendi eaque facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus delectus suscipit eaque, repudiandae natus fuga, earum expedita, aliquam nesciunt recusandae modi. Numquam, dolore labore enim illum a voluptate dicta ipsa!</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nemo quod possimus voluptas soluta voluptates consequatur ducimus qui suscipit reprehenderit nam culpa impedit, vero facilis nostrum quasi eligendi eaque facere. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore magnam facere harum vero consectetur, quis pariatur provident alias similique aut quasi quia laboriosam quisquam ipsam. Modi adipisci atque quaerat cumque?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nemo quod possimus voluptas soluta voluptates consequatur ducimus qui suscipit reprehenderit nam culpa impedit, vero facilis nostrum quasi eligendi eaque facere. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus fuga ab sint enim nemo maxime tempore temporibus? Reiciendis quisquam architecto hic sit possimus. Animi quaerat ipsam dicta fugiat, a odit?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nemo quod possimus voluptas soluta voluptates consequatur ducimus qui suscipit reprehenderit nam culpa impedit, vero facilis nostrum quasi eligendi eaque facere. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ullam veniam consequuntur neque fugiat odio molestias vero! Laudantium nostrum autem assumenda! Assumenda, iusto cum dicta temp</p>
+        </div>
+    </div>
+</body>
+</html>

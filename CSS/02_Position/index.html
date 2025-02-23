@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - [ POSITION ]</title>
+    <style>
+        /*
+        Position: where we want to place an object in our desired position in html document page
+        position: static means the default position of elements in html doc
+        relative : positioned relatively to its own
+        absolute:  positioned relatively to its parent
+        fixed: fix an element at the particular position
+        sticky: to stick any element in rhe given position
+
+        z-index: for layered elements
+        lesser the z-index last the element
+        greater the z-index top the element
+        
+        supportive properties: top, right, left, bottom
+        */
+        
+        .box{
+            width: 100px;
+            height: 100px;
+            box-shadow: 0 0 5px black;
+            margin: 10px;
+        }
+        .box1{
+            background-color: blue;
+            position: relative;
+            left: 200px;
+        }
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: relative;
+            left: 400px;
+        }
+        .box2{
+            background-color: red;
+            position: absolute;
+            left: 100px;
+            bottom: 50px;
+        }
+        .box3{
+            background-color: green;
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+        }
+        .box4{
+            background-color: tomato;
+            position: fixed;
+            top: 300px;
+            right: 80%;
+        }
+        .box5{
+            background-color: yellow;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="container">
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    </div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus sit pariatur vitae impedit natus est et laudantium quis enim. Temporibus impedit, voluptates asperiores laborum in eligendi expedita vel tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem praesentium, natus similique maiores culpa nesciunt. Unde, similique quas, in doloribus tempore dicta dolorem earum fugiat nostrum totam, ipsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates possimus veritatis facere, inventore enim beatae incidunt accusantium molestiae exercitationem suscipit dolorem! Velit tempore iusto voluptatem iure nemo asperiores explicabo impedit!</p>
+</body>
+</html>
